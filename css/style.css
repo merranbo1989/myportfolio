@@ -84,7 +84,7 @@ body{
     top: 20px;
     background-color: #6f34fe;
     transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    transition: transform 0.5s ease-out;
 }
 .link:hover{
     color: #6f34fe;
@@ -94,21 +94,21 @@ body{
     transform-origin: bottom left;
 }
 /* adding animation to home section image  */
-.home img{
-    animation: floatimg 4s ease-in-out infinite;
+/* .home img{
+    animation: floatimg 1.5s ease-in-out;
 }
 
 @keyframes floatimg {
     0%{
-        transform: translateX(0);
+        transform: translateX(0px);
     }
     50%{
-        transform: translateX(-24px);
+        transform: translateX(-40px);
     }
     100%{
-        transform: translateX(0);
+        transform: translateX(0px);
     }
-}
+} */
 
 /* expertise section starts */
 .heading small{
